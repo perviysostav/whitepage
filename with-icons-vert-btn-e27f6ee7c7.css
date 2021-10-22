@@ -1,0 +1,97 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic";
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 5px;
+  font-size: 12px;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+
+body.is-preview {
+  overflow: hidden; }
+
+.Widget {
+  box-shadow: rgba(99, 99, 99, 0.498039) 1px 2px 9.4px 0.6px;
+  border-radius: 5px;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff; }
+  .Widget-header {
+    text-align: center;
+    background: #ef584e;
+    padding: 2px 0;
+    position: relative; }
+  .Widget-headerText {
+    font-size: 25px;
+    color: #fff; }
+  .Widget-close {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px; }
+
+.Cases-item {
+  display: inline-block;
+  vertical-align: top; }
+  .Cases-item:not(:last-child) {
+    margin-right: 16px; }
+
+.Cases-itemTitle {
+  font-size: 16px;
+  color: #003c5c;
+  font-weight: bold;
+  margin-top: 15px; }
+
+.Cases-itemDescription {
+  font-size: 14px;
+  color: #000000; }
+
+.Cases-itemImg {
+  width: 70px;
+  height: 70px; }
+
+.Widget {
+  padding-bottom: 18px;
+  width: 331px; }
+  .Widget-body {
+    padding: 18px 25px 0 33px; }
+  .Widget-footer {
+    margin-top: 18px;
+    text-align: center; }
+
+.Cases {
+  display: table;
+  border-spacing: 0 14px; }
+  .Cases-item {
+    display: table-row;
+    vertical-align: middle; }
+  .Cases-itemTitle, .Cases-itemCover, .Cases-itemDescription {
+    display: table-cell; }
+  .Cases-itemTitle {
+    vertical-align: middle;
+    color: #003c5c;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 25px 0 28px; }
+
+.Button {
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  text-decoration: none;
+  background: #0089ca;
+  padding: 11px 25px;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  border-radius: 5px; }
+  .Button:hover {
+    opacity: 1; }
